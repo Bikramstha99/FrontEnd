@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    
+    display: flex;
+    align-items: center;
+   
+}
+.navbar ul li{
+    list-style: none;
+    margin:20px;
+    font-style: 1.3rem;
+}
+.navbar ul li a{
+    font-size: 20px;
+    color: white;
+    display:block;   
+    padding: 10px 6px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.navbar::before{
+    margin-bottom:10px;
+    content: "";
+    background-color:black;
+    position: absolute;
+    height: 13%;
+    width: 100%;
+    z-index: -1; 
+    opacity: 0.7;   
+}
+.navbar ul li a:hover{
+    background-color: gray;
+    cursor:pointer;
+}
+.search input{
+    margin-left: 500px;
+    height: 30px;
+    width: 200px;
+}
+#logo{
+    height: 70px;
+    margin: 4px -2px;  
+}
+
+#logo img{
+    margin: 0px 20px;
+    width:70px
+}
+#logoname{
+    display:block;
+    margin: -5px 25px;
+    font-size: 15px;
+    font-style: normal ;
+    color: white;
+}
+
+/*home */
+#home::before{
+    margin: -15px 0px;
+    content: "";
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+#home img{
+
+    margin-top: 265px;
+    margin-right: 295px;
+    width:1400px;
+    height: 540px;
+
+}
+#home::after{
+    content: "Steins Gate:The Future Is Here";
+    font-size: 3.8rem;
+    font-style: 'Anton', sans-serif;
+    margin-top: 400px;
+    margin-right: 750px;
+    position: absolute;
+    color: white;
+    
+}
+.btn{
+    position: absolute;
+    margin-top: 600px;
+    margin-right: 1000px;
+    padding: 6px 20px;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: gray;
+    
+}
+
+/*trending*/
+.name1{
+    display: flex;
+    padding: 6px 5px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: rgb(144, 144, 144);
+}
+.trending{
+    display: block;
+    margin-left:1310px;
+    margin-top: -290px;
+}
+.box img{
+    width: 210px;
+    height: 164px;
+}
+
+/*recent*/
+
+.name2{
+
+    margin-left: 0px;
+    margin-top: -350px;
+    font-size: 2.8rem;
+    color: white;
+    background-color: rgb(144, 144, 144);
+}
+.box1{
+    display: inline;
+
+}
+.box1 img{
+    width: 259px;
+    height: 285px;
+}
+
+  
